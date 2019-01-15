@@ -1997,3 +1997,18 @@ ul.about_box li.box_desc {
 	-moz-transition: 0.5s all;
   color: blanchedalmond;
 }
+.listTable {
+    width: 100%;
+    max-width: 100%;
+}
+.tableHead {
+    height: 32px;
+    background-color: #f5f5f5;
+    border-top: 1px #ddd solid;
+    border-bottom: 1px #ddd solid;
+}
+.pingjia {
+    padding: 20px;
+    margin: 20px;
+    
+}
