@@ -2030,6 +2030,7 @@ td.invert-image a img {
     cursor: pointer;
     width: 28px;
     height: 28px;
+    position: absolute;
     right: 42px;
     top: -13px;
     -webkit-transition: color 0.2s ease-in-out;
@@ -2142,7 +2143,6 @@ td.invert-image a img {
 	font-size:1em;
 	background:#212121;
 	text-decoration:none;
-    margin-right: 200px;
 }
 .checkout-right-basket a:hover{
 	background:#FDA30E;
