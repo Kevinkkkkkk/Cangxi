@@ -1382,6 +1382,13 @@ input[type="password"] {
 	font-size: 1em;
 	padding: 0.5em;
 }
+#control_eda1ebfe-e449-4f2c-85c6-50191aca18dd{
+ margin-bottom:10px;
+}
+#control_eda1ebfe-e449-4f2c-85c6-50191aca18dd .condition{font-size:12px; color:#666;}
+#control_eda1ebfe-e449-4f2c-85c6-50191aca18dd .condition a{padding-right:10px; color:#999;}
+#control_eda1ebfe-e449-4f2c-85c6-50191aca18dd .condition a:hover{color:#e4393c;}
+#control_eda1ebfe-e449-4f2c-85c6-50191aca18dd .condition span{color:#666; padding-right:5px; font-family:"仿宋";}
 .contact-form textarea {
 	padding: 10px;
 	display: block;
@@ -1996,19 +2003,4 @@ ul.about_box li.box_desc {
 	-ms-transition: 0.5s all;
 	-moz-transition: 0.5s all;
   color: blanchedalmond;
-}
-.listTable {
-    width: 100%;
-    max-width: 100%;
-}
-.tableHead {
-    height: 32px;
-    background-color: #f5f5f5;
-    border-top: 1px #ddd solid;
-    border-bottom: 1px #ddd solid;
-}
-.pingjia {
-    padding: 20px;
-    margin: 20px;
-    
 }
