@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Contact</title>
+<title>支付</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Fashionpress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+<meta name="keywords" content="Fashionpress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -21,7 +21,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header_top">
 		<div class="container">
 			<div class="logo">
-                <li>苍溪商城</li>
+				<li>苍溪商城</li>
 			</div>
 			<ul class="shopping_grid">
 			      <a href="register.html"><li>注册</li></a>
@@ -36,12 +36,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 				<a class="toggleMenu" href="#">菜单</a>
 				<ul class="nav">
-					<li><a href="index.html" data-hover="首页">首页</a></li>
+
+					<li class="active"><a href="index.html" data-hover="首页">首页</a></li>
 					<li><a href="all.html" data-hover="所有商品">所有商品</a></li>
 					<li><a href="hot.html" data-hover="热销产品">热销产品</a></li>
 					<li><a href="special.html" data-hover="活动商品">活动商品</a></li>
 					<li><a href="404.html" data-hover="积分兑换">积分兑换</a></li>
-					<li class="active"><a href="contact.html" data-hover="联系我们">联系我们</a></li>
+					<li><a href="contact.html" data-hover="联系我们">联系我们</a></li>
 				 </ul>
 				 <script type="text/javascript" src="js/nav.js"></script>
 	      </div><!-- end h_menu4 -->
@@ -60,61 +61,52 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="clearfix"> </div>
   </div>
 </div>
-<div class="about">
- <div class="container">
-     <div class="wrap" style="margin-top:20px;"><div id="control_eda1ebfe-e449-4f2c-85c6-50191aca18dd" class="control_goodscondition"><div class="condition">
-    当前位置：<a href="index.html">首页</a><span>&gt;</span>
-<a href="javascript:;" onclick="return false">联系我们</a></div></div></div>
-  <div class="singel_right">
-			     <div class="col-md-8">
-				      <div class="contact-form">
-				  	        <form method="post" action="contact-post.html">
-					    	    <p class="comment-form-author"><label for="author">您的姓名：</label>
-					    	    	<input type="text" class="textbox" value="在这里输入您的姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请在这里输入您的电子邮件';}">
-						    	</p>
-						        <p class="comment-form-author"><label for="author">电子邮件</label>
-						     	   <input type="text" class="textbox" value="请在这里输入您的电子邮件" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请在这里输入您的电子邮件';}">
-						        </p>
-						        <p class="comment-form-author"><label for="author">反馈内容</label>
-						    	  <textarea value="Enter your message here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请在这里输入您的电子邮件';}">请在这里输入反馈内容</textarea>
-						        </p>
-						        <input name="submit" type="submit" id="submit" value="提交">
-					        </form>
-				       </div>
-			     </div>
-			     <div class="col-md-4 contact_right">
-					<h3>地址</h3>
-				    <div class="address">
-						<i class="pin_icon"></i>
-					    <div class="contact_address">
-						  高新区
-					    </div>
-					    <div class="clearfix"></div>
-					</div>
-					<div class="address">
-						<i class="phone"></i>
-					    <div class="contact_address">
-						   13518326109
-					    </div>
-					    <div class="clearfix"></div>
-					</div>
-					<div class="address">
-						<i class="mail"></i>
-					    <div class="contact_email">
-						  <a href="malito:mail@demolink.org">3216972878@qq.com.com</a>
-					    </div>
-					    <div class="clearfix"></div>
-					</div>
-		        </div>
-		        <div class="clearfix"></div>
+      <style type="text/css">
+
+	</style>
+
+
+<div class="payWrap">
+	<div class="payHeader clearfix">
+		<strong class="fl">订单编号：123456789</strong>
+		<span class="fr"><strong class="fontsize">60.000</strong>元</span>
+	</div>
+	<section class="payContent">
+		<div class="unionpayList">
+			<span class=" unionpay1">支付宝支付</span>
+			<span class=" unionPrice">支付<strong class="fontsize">60.00</strong>元</span>
 		</div>
-		<div class="map">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3150859.767904157!2d-96.62081048651531!3d39.536794757966845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1408111832978"> </iframe>
-        </div>
-     </div>
+        <div class="unionpayList ">
+			<span class=" unionpay1">微信支付</span>
+			<span class=" unionPrice">支付<strong class="fontsize">60.00</strong>元</span>
+		</div>
+        <div class="unionpayList ">
+			<span class=" unionpay1">银行卡支付</span>
+			<span class=" unionPrice">支付<strong class="fontsize">60.00</strong>元</span>
+		</div>
+		<div class="unionpayList  ">
+			<span class="  unionpay2">财付通支付</span>
+			<span class="unionPrice ">支付<strong class="fontsize">60.00</strong>元</span>
+		</div>
+		<div class="payBorder clearfix">
+			<a href="#" class="fl payBut ">确认支付</a>
+			<a href="#" class="fl wait">稍后支付...</a>
+		</div>
+	</section>
 </div>
-<div class="footer_bg">
-</div>
+ 
+</body>
+<script src="http://code.jquery.com/jquery-1.4.1.js"></script>
+<script>
+	$(".unionpayList").click(function(){
+		$(".unionpayList").removeClass("activeBtn");
+		$(this).addClass("activeBtn")
+	})
+</script>
+	  <div class="clearfix"> </div>
+
+    <div class="clearfix"> </div>
+
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 f_grid1" style="text-align: right;">
@@ -157,6 +149,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <div class="clearfix"> </div>
        	</div>
 </div>
+
+    
 
 </body>
 </html>
