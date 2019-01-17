@@ -1510,7 +1510,7 @@ input[type="password"] {
 	-moz-transition: 0.2s;
 	-o-transition: 0.2s;
 }
-.contact-form input[type="submit"]:hover, .page-not-found a:hover, .register-but form input[type="submit"]:hover, .acount-btn:hover, .login-right input[type="submit"]:hover{
+.contact-form input[type="submit"]:hover, .page-not-found input[type="submit"]:hover, .register-but form input[type="submit"]:hover, .acount-btn:hover, .login-right input[type="submit"]:hover{
 	-webkit-transform: rotateY(15deg);
 	-moz-transform: rotateY(15deg);
 	-ms-transform: rotateY(15deg);
@@ -1572,18 +1572,21 @@ i.mail{
 .page-not-found{
 	text-align:center;
 }
-.page-not-found h1{
-	font: 300 150px/150px Lato, sans-serif;
-	color:#000;
-	margin-bottom:0.5em;
-}
-.page-not-found a {
-	color: #fff;
+.page-not-found input[type="submit"] {
 	background:#df1f26;
-	text-decoration: none;
-	padding: 15px 40px;
-	font: 300 16px/16px Lato, sans-serif;
+	color: #FFF;
+	font-size: 0.8em;
+	padding: 0.8em 2em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	text-transform: uppercase;
+	border:none;
+	outline:none;
 }
+
 /*--register--*/
 .register-top-grid h3, .register-bottom-grid h3 {
 	color:#df1f26;
