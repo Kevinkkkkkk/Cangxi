@@ -559,9 +559,27 @@ ul.callbacks_tabs.callbacks1_tabs {
 	line-height: 1.5em;
 	font: 500 13px/13px 'Lato', sans-serif;
 }
+.search1 input[type="text"] {
+	padding:7px 10px;
+	outline: none;
+	color: #fff;
+	background:#c9c9c9;
+	border: none;
+	width:72%;
+	line-height: 1.5em;
+	font: 500 13px/13px 'Lato', sans-serif;
+}
 .search input[type="submit"] {
 	background: url('../images/search.png') no-repeat 6px 5px #df1f26;
 	padding: 4px 17px;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	outline: none;
+}
+.search1 input[type="submit"] {
+	background: url('../images/search.png') no-repeat 6px 5px #df1f26;
+	padding: 7px 17px;
 	border: none;
 	cursor: pointer;
 	position: absolute;
